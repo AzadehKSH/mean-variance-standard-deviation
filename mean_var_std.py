@@ -2,7 +2,7 @@ import numpy as np
 
 def calculate(list):
   if len(list) != 9:
-    raise ValueError("Please enter 9 value")
+    raise ValueError("Please enter 9 values")
   array = np.array(list).reshape((3, 3))
   calculations = {
     "mean": [
